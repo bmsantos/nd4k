@@ -28,7 +28,8 @@ Welcome to Kotlin version 1.0.0-beta-1103 (JRE 1.8.0_51-b16)
 Type :help for help, :quit for quit
  >>> import org.nd4j.linalg.factory.Nd4j
  >>> val float1x4 = floatArrayOf(1f, 2f, 3f, 4f)
- >>> val nd = Nd4j.create(float1x4)
- >>> val int: Float = nd.get(0, 2)
- >>> println(int)
+ >>> val shape2x2 = intArrayOf(2, 2)
+ >>> val nd = Nd4j.create(float1x4, shape2x2)
+ >>> println(nd)
+ >>> println(nd.get(0,0))
 ```
