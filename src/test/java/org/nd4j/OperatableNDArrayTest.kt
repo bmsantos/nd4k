@@ -1,10 +1,11 @@
+package org.nd4j
+
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
-import org.nd4j.get
 import org.nd4j.linalg.cpu.NDArray
 import org.nd4j.linalg.factory.Nd4j
 
-class SimpleTests {
+class OperatableNDArrayTests {
 
     private val shape3x3 = intArrayOf(3, 3)
 
