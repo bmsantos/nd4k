@@ -5,7 +5,7 @@ import org.junit.Test
 import org.nd4j.linalg.cpu.NDArray
 import org.nd4j.linalg.factory.Nd4j
 
-class OperatableNDArrayTests {
+class OperatableNDArrayTest {
 
     private val shape3x3 = intArrayOf(3, 3)
 
